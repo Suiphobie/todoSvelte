@@ -1,8 +1,10 @@
 <script lang="ts">
-	import * as Card from '$lib/components/ui/card/index.ts';
+	import TaskCard from '$lib/components/ui/custom/TaskCard.svelte';
 </script>
 
-<Card.Root>
-	<Card.Header></Card.Header>
-	<Card.Title>Task</Card.Title>
-</Card.Root>
+<TaskCard
+	title="Ma Première Tache Cool"
+	description="J'adore le fun"
+	contentText="Ouai ouai"
+	footerText="01/01/2025"
+/>
