@@ -9,9 +9,9 @@
 	}: { title?: string; description?: string; contentText?: string; footerText?: string } = $props();
 </script>
 
-<Card.Root>
+<Card.Root class="w-auto p-5">
 	<Card.Header>
-		<Card.Title>{title}</Card.Title>
+		<Card.Title class="text-start">{title}</Card.Title>
 		<Card.Description>{description}</Card.Description>
 	</Card.Header>
 	<Card.Content>
